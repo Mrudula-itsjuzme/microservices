@@ -1,30 +1,87 @@
 # Microservices Research Project
 
-## Overview
+A distributed-systems research repository exploring microservices architecture, service communication, deployment scripts, and system-design patterns for AI-oriented applications.
 
-This repository is part of a research portfolio focused on artificial intelligence and distributed systems. It explores the implementation and management of microservices architectures in the context of AI-driven applications.
+---
 
-## Project Structure
+## Problem statement
 
-The project is organized into the following modules:
-- **src/**: Implementation of individual microservices.
-- **docs/**: Architectural diagrams and theoretical methodology.
-- **experiments/**: Benchmarking and performance analysis of distributed components.
-- **tests/**: Integration and unit tests for cross-service communication.
-- **scripts/**: Deployment and orchestration scripts.
+Large applications are easier to scale and maintain when they are divided into smaller services. This repository explores how microservices can be structured, connected, tested, and deployed.
 
-## Methodology
+---
 
-Detailed methodology regarding service discovery, load balancing, and data consistency can be found in `docs/methodology.md`.
+## Project goals
 
-## Usage Instructions
+- understand microservices architecture
+- study service discovery and cross-service communication
+- explore deployment and orchestration workflows
+- organize experiments for benchmarking distributed components
+- build a foundation for scalable AI-backed applications
 
-1. Ensure all system dependencies for containerization (e.g., Docker) are met.
-2. Install the necessary Python or runtime packages.
-3. Run the deployment scripts located in the `scripts/` directory.
+---
 
-## Future Work
+## Architecture concept
 
-- Implementation of advanced service mesh patterns.
-- Integration of real-time monitoring and observability tools.
-- Enhancement of automated scaling policies based on AI workload demands.
+```text
+Client / Gateway
+      ↓
+Service A ── Service B ── Service C
+      ↓          ↓          ↓
+   Database   Cache      External API
+      ↓
+Monitoring + Logs
+```
+
+---
+
+## Repository structure
+
+```text
+microservices/
+├── src/          # implementation of individual services
+├── docs/         # architecture diagrams and methodology notes
+├── experiments/  # benchmarking and performance experiments
+├── tests/        # unit and integration tests
+├── scripts/      # deployment and orchestration scripts
+└── README.md
+```
+
+---
+
+## How to use
+
+```bash
+git clone https://github.com/Mrudula-itsjuzme/microservices.git
+cd microservices
+```
+
+Install the required runtime dependencies and run the scripts in the `scripts/` folder according to the current experiment.
+
+---
+
+## Tech focus
+
+- microservices architecture
+- distributed systems
+- service discovery
+- load balancing
+- data consistency
+- Docker-ready deployment patterns
+- testing cross-service communication
+
+---
+
+## Future improvements
+
+- add Docker Compose setup
+- include a service diagram
+- add API documentation
+- add observability with logs and metrics
+- test autoscaling behavior
+- include a sample end-to-end microservice workflow
+
+---
+
+## Author
+
+Built by [Pedamallu Sai Mrudula](https://github.com/Mrudula-itsjuzme) as part of a distributed-systems and AI-infrastructure portfolio.
