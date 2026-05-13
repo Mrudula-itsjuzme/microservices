@@ -4,6 +4,19 @@ A distributed-systems research repository exploring microservices architecture, 
 
 ---
 
+## Project links and evidence
+
+| Item | Link / Note |
+|---|---|
+| Repository | https://github.com/Mrudula-itsjuzme/microservices |
+| Paper / reference | Distributed-systems learning/research project; no paper attached |
+| Demo video | Not uploaded yet |
+| Deployment | No deployment attached yet; Docker Compose setup is a planned improvement |
+| Dataset note | No dataset required; this is architecture/service-behavior focused |
+| Result screenshots | Add service diagram, API screenshots, terminal logs, or Docker run screenshots under `docs/` |
+
+---
+
 ## Problem statement
 
 Large applications are easier to scale and maintain when they are divided into smaller services. This repository explores how microservices can be structured, connected, tested, and deployed.
